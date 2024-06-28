@@ -510,6 +510,29 @@ a.item {
 		padding: 30px 0 20px;
 	}
 
+	.icon {
+		font-size: 12px;
+		max-width: 40px;
+	}
+	
+	.icon img {
+		height: 34px;
+		width: auto;
+		padding-bottom: 6px;
+	}
+
+	.links,
+	.languages {
+		display: contents;
+		margin-bottom: 20px;
+		cursor: pointer;
+	}
+
+	.links .icon:not(:first-child),
+	.languages .icon{
+		margin-left: 15px;
+	}
+
 	.wrapper .main-grid .article-wrap,
 	.wrapper .secondary-set article {
 		transform: none;
