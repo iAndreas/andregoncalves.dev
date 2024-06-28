@@ -141,7 +141,6 @@ blockquote {
 }
 
 header {
-	position: sticky;
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
