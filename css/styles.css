@@ -521,16 +521,12 @@ a.item {
 		padding-bottom: 6px;
 	}
 
-	.links,
-	.languages {
-		display: contents;
-		margin-bottom: 20px;
-		cursor: pointer;
+	header {
+		justify-content: center;
 	}
-
 	.links .icon:not(:first-child),
 	.languages .icon{
-		margin-left: 15px;
+		margin-left: 20px;
 	}
 
 	.wrapper .main-grid .article-wrap,
