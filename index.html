@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Andre's Space</title>
+
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
+		<meta charset="utf-8" />
+		<meta name="description" content="André Gonçalves (software developer) personal website." />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js" type="text/javascript"></script>
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header>
+			<div class="links">
+				<a class="icon" onclick="location.reload()"><img src="images/globe.png" /><span>Website</span></a>
+				<a class="icon" href="https://github.com/iAndreas" target="_blank"><img src="images/github.webp" /><span>Github</span></a>
+				<a class="icon" href="https://www.linkedin.com/in/andr%C3%A9-gon%C3%A7alves-269347149/" target="_blank"><img src="images/linkedin.webp" /><span>Linkedin</span></a>
+				<a class="icon" href="https://www.canva.com/design/DADqSdsxnq8/Bd6p-93_rFDFhmmGiren8A/view?utm_content=DADqSdsxnq8&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><img src="images/rss.png" /><span class="langchange">Curriculum</span></a>
+				
+			</div>
+			<div class="languages">
+				<a class="icon" onclick="setLanguage('default')"><img src="images/eua.png" /><span class="langchange">English</span></a>
+				<a class="icon" onclick="setLanguage('pt-BR')"><img src="images/brasil.png" /><span class="langchange">Portuguese</span></a>
+			</div>
+		</header>
+
+		<div class="wrapper">
+			<div class="main-grid">
+				<div class="article-wrap">
+					<article class="simple">
+						<div class="header">
+							<a class="category langchange"> about me </a>
+							<div class="buttons">
+								<button class="minimise"><span></span></button>
+								<button class="expand"><span></span></button>
+								<button class="close"><span></span></button>
+							</div>
+						</div>
+
+						<div class="meta">
+							<span class="item">28 Jun 2024</span>
+							<a class="item">whoami</a>
+							<a class="item">hello world</a>
+						</div>
+
+						<div class="content plain" id="aboutme">
+							<a class="cover-link"></a>
+							<a><h1 class="langchange">About me and my tech journey.</h1></a>
+							<p>
+								<img src="images/journey.webp" alt="Walking through this magic tech journey." />
+							</p>
+							<p class="langchange">
+								Yo! I'm André Gonçalves, a 22 years old software designer/developer
+								and a tech enthusiast. My first contact with software development was in 2017, when I started
+								studying at the technical school IFC (a federal institute in my state).
+							</p>
+							<p class="more-content langchange">
+								Back in these days, I made my first website for a homework, the class was just about HTML but I started 
+								learning JS and CSS cause I wanted to do a beauty and functional website. My teacher gave me a 0 and told me
+								to redo using HTML exactly the way he asked to. I think it was a important lesson: first to don't rush the 
+								learning proccess and second to use tools that the project needs, don't overuse solutions that no contributes 
+								to the final result. IFC formed me as a Web Developer (my actual occupation area), but I have infinity interest 
+								areas besides it: cyber security, AI, automations, hardware... I'd love to explore all tech sides cause at first 
+								look it feels like magic, you don't understand what's happening, but then you study about it, dive deep and 
+								you reveal how the trick is done.
+							</p>
+							<a class="read-more langchange">							
+								Tell me everything...
+							</a>
+							<a class="read-more langchange" style="display: none;">
+								Go back...
+							</a>
+						</div>
+					</article>
+				</div>
+
+				<div class="article-wrap">
+					<article class="simple">
+						<div class="header">
+							<a class="category langchange"> skills </a>
+							<div class="buttons">
+								<button class="minimise"><span></span></button>
+								<button class="expand"><span></span></button>
+								<button class="close"><span></span></button>
+							</div>
+						</div>
+
+						<div class="meta">
+							<span class="item">28 Jun 2024</span>
+							<a class="item">my_tech_skills.js</a>
+						</div>
+
+						<div class="content plain" id="skills">
+							<a class="cover-link"></a>
+							<a><h1 class="langchange">All my tech skills leveled (by me btw)</h1></a>
+							<p>
+								<img src="images/pc.webp" alt="Getting skills is not that beauty like a gif." />
+							</p>
+							<table class="skills-table">
+								<thead>
+									<tr>
+										<th class="langchange">Advanced</th>
+										<th class="langchange">Intermediate</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>PHP</td>
+										<td>Python</td>
+									</tr>
+									<tr>
+										<td>Laravel</td>
+										<td>React</td>
+									</tr>
+									<tr>
+										<td>Node.js</td>
+										<td>Linux/Servers</td>
+									</tr>
+									<tr>
+										<td>JS/jQuery</td>
+										<td>Angular</td>
+									</tr>
+									<tr>
+										<td>Bootstrap</td>
+										<td>Tailwind</td>
+									</tr>
+									<tr>
+										<td>PostgreSQL</td>
+										<td>AWS</td>
+									</tr>
+									<tr>
+										<td>Rest API's</td>
+										<td>Postman</td>
+									</tr>
+									<tr>
+										<td>MySQL</td>
+										<td>Docker</td>
+									</tr>
+									<tr>
+										<td class="langchange">English (write, &ensp;&ensp;read & listen)</td>
+										<td class="langchange">English talking</td>
+									</tr>
+								</tbody>
+							</table>
+							<p class="more-content langchange">
+								While studying on IFC I learned the most basic tools for a complete web system development: 
+								HTML, JS/jQuery, PHP and MySQL. Also had some introduction classes about some other languages 
+								and frameworks like Angular, Nodejs and Bootstrap. On my first job (IPM Systems), 
+								in a period of two years and a half, I was part of the team that developed a web system 
+								for management of cities health centers using the same technologies I had learned, which 
+								make me master HTML, JS/jQuery, PHP and MySQL. On my second job (NxFácil) I learned PostgreSQL, 
+								which have a different syntax comparing to MySQL, and I develop two systems in parallel, an ERP 
+								using native PHP on backend and Bootstrap with jQuery on frontend and a project management software 
+								(like Trello), also uses the same front but with Laravel as backend. I developed a Whatsapp API 
+								to use in these two softwares using NodeJS and a library called puppeteer, also did an API for 
+								third party software consume and insert data in the ERP using Laravel and documented it with Postman. Also I'm responsible for controlling and maintaining the servers, gaving me skills with Linux, servers and AWS Management. The other skills I acquired through self-taught study.
+							</p>
+							<a class="read-more langchange">
+								Show me details...
+							</a>
+							<a class="read-more langchange" style="display: none;">
+								Go back...
+							</a>
+						</div>
+					</article>
+				</div>
+
+				<div class="article-wrap">
+					<article class="simple">
+						<div class="header">
+							<a class="category langchange"> experiences </a>
+							<div class="buttons">
+								<button class="minimise"><span></span></button>
+								<button class="expand"><span></span></button>
+								<button class="close"><span></span></button>
+							</div>
+						</div>
+
+						<div class="meta">
+							<span class="item">28 jun 2024</span>
+
+							<a class="item langchange">timeline</a>
+						</div>
+
+						<div class="content plain" id="experiences">
+							<a class="cover-link"></a>
+							<a><h1 class="langchange">Places where I developed my skills</h1></a>
+							<p>
+								<img src="images/work.webp" alt="Put a monkey to write code infinitely, some day he will do a hello world." />
+							</p>
+							<p class="langchange">	Education </p>
+							<ul>
+								<li class="langchange">IFC (federal institute)<br>
+									Information Technology<br>
+									2017 - 2019
+								</li>
+							</ul>	
+							<p class="langchange"> Jobs </p>
+							<ul>
+								<li class="langchange">IPM Systems<br>
+									Fullstack Dev<br>
+									feb 2020 - jul 2022
+								</li>
+								<li class="langchange">NxFácil<br>
+									Fullcycle Dev<br>
+									jul 2022 - until now
+								</li>
+							</ul>
+							<p class="more-content langchange">
+								IPM was my first job, I started doing a free course that they're doing and they hired me 
+								because of my good performance at this course. Used in practice the languages i've learned on IFC. 
+								Desigred my role as "Fullstack" cause I did developed both front and backend. On NxFácil I also use 
+								the previously learned technologies but also others that I don't had any contact and learned how to 
+								use while I developed (technical details in the skills tab). Desigred my function as "Fullcycle" 
+								cause different from fullstack, here I take care of the entire software cycle: requirements analysis 
+								and gathering, developing front and backend and also deploying the system, because I'm responsible 
+								for the servers too. This work gave me a big bag of knowledge (and responsibilities too).
+							</p>
+							<a class="read-more langchange">
+								Explain me these...
+							</a>
+							<a class="read-more langchange" style="display: none;">
+								Go back...
+							</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+		<script src="js/index.js"></script>
+	</body>
+</html>
